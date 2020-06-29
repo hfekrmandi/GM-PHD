@@ -39,7 +39,7 @@ clc;
 %range-bearing measurements. The observation and prediction covariances are
 %also different.
 GM_PHD_Initialisation;
-if USE_EKF == 0
+if USE_EKF == 1
     GM_PHD_Simulate_Initialise;
 else
     GM_EKF_PHD_Simulate_Initialise;
